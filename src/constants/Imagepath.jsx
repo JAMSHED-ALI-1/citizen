@@ -43,6 +43,7 @@ export default {
     tesk:require('../assets/images/checklist.png'),
     Payroll:require('../assets/images/save-money.png'),
     Meal:require('../assets/images/arrow.png'),
-    employee:require('../assets/images/user.png')
+    employee:require('../assets/images/user.png'),
+    Background:require('../assets/images/Backgroud.png')
   
   };
