@@ -12,8 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		216CC6541D074A7C84C26069 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3C5C0638E7E443385505562 /* Barlow-Regular.ttf */; };
+		27D7C37A95AF400DB86D6FD2 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0992AD67335C49DD84686624 /* Barlow-Bold.ttf */; };
+		2C7EA79A6E784FBEA1087701 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF13D647943942A2B27885FE /* Barlow-SemiBold.ttf */; };
 		5AF19237366A7C62EADED132 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-Citizen-CitizenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Citizen-CitizenTests.a */; };
+		7E511FF7B5CE448487ED8250 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 410D2C07577C43ECAE3F932E /* Barlow-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,7 @@
 		00E356EE1AD99517003FC87E /* CitizenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitizenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CitizenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitizenTests.m; sourceTree = "<group>"; };
+		0992AD67335C49DD84686624 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Bold.ttf"; path = "../src/assets/Fonts/Barlow-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Citizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Citizen/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Citizen/AppDelegate.mm; sourceTree = "<group>"; };
@@ -40,12 +45,15 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Citizen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Citizen-CitizenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citizen-CitizenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Citizen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citizen.debug.xcconfig"; path = "Target Support Files/Pods-Citizen/Pods-Citizen.debug.xcconfig"; sourceTree = "<group>"; };
+		410D2C07577C43ECAE3F932E /* Barlow-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Medium.ttf"; path = "../src/assets/Fonts/Barlow-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Citizen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citizen.release.xcconfig"; path = "Target Support Files/Pods-Citizen/Pods-Citizen.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Citizen-CitizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citizen-CitizenTests.debug.xcconfig"; path = "Target Support Files/Pods-Citizen-CitizenTests/Pods-Citizen-CitizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Citizen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Citizen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Citizen/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Citizen-CitizenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citizen-CitizenTests.release.xcconfig"; path = "Target Support Files/Pods-Citizen-CitizenTests/Pods-Citizen-CitizenTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3C5C0638E7E443385505562 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-Regular.ttf"; path = "../src/assets/Fonts/Barlow-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF13D647943942A2B27885FE /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Barlow-SemiBold.ttf"; path = "../src/assets/Fonts/Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BABF53A0C60A4AEC93FA0912 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -138,6 +147,18 @@
 				00E356EE1AD99517003FC87E /* CitizenTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BABF53A0C60A4AEC93FA0912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0992AD67335C49DD84686624 /* Barlow-Bold.ttf */,
+				410D2C07577C43ECAE3F932E /* Barlow-Medium.ttf */,
+				E3C5C0638E7E443385505562 /* Barlow-Regular.ttf */,
+				EF13D647943942A2B27885FE /* Barlow-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -247,6 +268,10 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				5AF19237366A7C62EADED132 /* PrivacyInfo.xcprivacy in Resources */,
+				27D7C37A95AF400DB86D6FD2 /* Barlow-Bold.ttf in Resources */,
+				7E511FF7B5CE448487ED8250 /* Barlow-Medium.ttf in Resources */,
+				216CC6541D074A7C84C26069 /* Barlow-Regular.ttf in Resources */,
+				2C7EA79A6E784FBEA1087701 /* Barlow-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
